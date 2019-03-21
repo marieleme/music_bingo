@@ -1,0 +1,81 @@
+0:All My Life:Foo Fighters 
+1:Ain't No Rest for the Wicked:Cage The Elephant 
+2:Seven Nation Army:The White Stripes 
+3:Joker And The Thief:Wolfmother 
+4:Come Together:Gary Clark Jr. 
+5:Figure It Out:Royal Blood 
+6:The Way You Used to Do:Queens of the Stone Age 
+7:Killing In The Name:Rage Against The Machine 
+8:Chop Suey!:System Of A Down 
+9:Uprising:Muse 
+10:Howlin' For You:The Black Keys 
+11:Are You Gonna Be My Girl:Jet 
+12:Let Me Live / Let Me Die:Des Rocs 
+13:Legend:The Score 
+14:Born For Greatness:Papa Roach 
+15:Go To War:Nothing More 
+16:Lights Out:Royal Blood 
+17:Walk On Water:Thirty Seconds To Mars 
+18:The Devil's Bleeding Crown:Volbeat 
+19:Coming for You:The Offspring 
+20:Legendary:Welshly Arms 
+21:Highway Tune:Greta Van Fleet 
+22:Black Holes (Solid Ground):The Blue Stones 
+23:Prophets Of Rage:Prophets Of Rage 
+24:Bright Lights:Gary Clark Jr. 
+25:Be Legendary:Pop Evil 
+26:hometown:cleopatrick 
+27:Song 2:Blur 
+28:Basket Case:Green Day 
+29:S.O.B.:Nathaniel Rateliff & The Night Sweats 
+30:Run:Foo Fighters 
+31:Oh No:Goodbye June 
+32:No Good:KALEO 
+33:My Name Is Human:Highly Suspect 
+34:Apple Pie:Rafferty 
+35:Asking For It:Shinedown 
+36:Feel Invincible:Skillet 
+37:Take It All:Pop Evil 
+38:Whole Lotta Love - 1990 Remaster:Led Zeppelin 
+39:Enter Sandman:Metallica 
+40:Slither:Velvet Revolver 
+41:Savior:Rise Against 
+42:Bored To Death:blink-182 
+43:Thrash Unreal:Against Me! 
+44:Fire:Barns Courtney 
+45:Club Foot:Kasabian 
+46:Rebel Heart:The Shelters 
+47:The Vengeful One:Disturbed 
+48:State Of My Head:Shinedown 
+49:Elephant:Tame Impala 
+50:What Went Down:Foals 
+51:Night People:You Me At Six 
+52:You Rascal You:Hanni El Khatib 
+53:What Makes A Good Man?:The Heavy 
+54:Ten Tonne Skeleton:Royal Blood 
+55:My Own Worst Enemy:Lit 
+56:What's My Age Again?:blink-182 
+57:Welcome To The Jungle:Guns N' Roses 
+58:Sweet Emotion:Aerosmith 
+59:Sex on Fire:Kings of Leon 
+60:Asleep at the Wheel:Band Of Skulls 
+61:Sixteen Saltines:Jack White 
+62:Dirty Deeds Done Dirt Cheap:AC/DC 
+63:I’m So Sorry:Imagine Dragons 
+64:Lydia:Highly Suspect 
+65:No One Knows:Queens of the Stone Age 
+66:Touch, Peel And Stand:Days Of The New 
+67:Trip Switch:Nothing But Thieves 
+68:Footsteps:Pop Evil 
+69:Take a Sip:Skrizzly Adams 
+70:Give It Away:Red Hot Chili Peppers 
+71:Spoonman:Soundgarden 
+72:Miss Murder:AFI 
+73:Smells Like Teen Spirit:Nirvana 
+74:Do I Wanna Know?:Arctic Monkeys 
+75:Could Have Been Me:The Struts 
+76:The Hand That Feeds:Nine Inch Nails 
+77:When I Come Around:Green Day 
+78:Even Flow:Pearl Jam 
+79:Kings And Queens:Thirty Seconds To Mars 
+80:Bullet With Butterfly Wings - Remastered 2012:The Smashing Pumpkins 
