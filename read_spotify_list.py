@@ -11,10 +11,6 @@ uri = 'spotify:user:spotify:playlist:37i9dQZF1DXauOWFg72pbl'
 username = uri.split(':')[2]
 playlist_id = uri.split(':')[4]
 
-#playlist = sp.user_playlist(username, playlist_id)
-
-#with open("something.txt", "w") as file:
-#    file.write(json.dumps(playlist, indent=4))
 def show_tracks(results):
     for i, item in enumerate(results['items']):
         track = item['track']
