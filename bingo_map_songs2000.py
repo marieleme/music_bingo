@@ -1,13 +1,10 @@
 import random
 
-
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
-COLOUR_MAP = {
-    range(-10, 0): (255, 0, 0),
-    range(0, 10): (0, 255, 0),
-    range(10, 21): (0, 0, 255)
-}
+"""
+TODO: make a test to be sure that the grid doesnt have any replicas in it
+"""
 
 
 """
@@ -57,13 +54,15 @@ def beautify(song_tuple, max_width):
     return '"' + str(str1) + '"' +"\n"+str(str2)
 
 def draw_image_from_colour_grid(colour_grid):
-    width = 1000
-    height = 800
+    width = 1800
+    string_width = 23
+    font_width = 25
+    height = 1500
     opacity = 0.8
     transparent = (0, 0, 0, 0)
     white = (255,255,255)
     black = (0,0,0)
-    font = ImageFont.truetype('Oswald-Regular.ttf',15)
+    font = ImageFont.truetype('Oswald-Regular.ttf', font_width)
 
     wm = Image.new('RGBA',(width,height),transparent)
     im = Image.new('RGBA',(width,height),transparent)
@@ -72,8 +71,8 @@ def draw_image_from_colour_grid(colour_grid):
 
     for i, row in enumerate(colour_grid):
         for j, song in enumerate(row):
-            some = beautify(song, 25)
-            draw.text((i*200, j*150), some, black, font)
+            some = beautify(song, string_width)
+            draw.text((i*265, j*260), some, black, font)
 
 
     en = ImageEnhance.Brightness(wm)
@@ -81,48 +80,15 @@ def draw_image_from_colour_grid(colour_grid):
 
     im.paste(wm, (25,25), mask)
     im.save('bingo.png', 'PNG')
+
     
-    #make_white_pixles_transparent('bingo.jpg')
 
-    #paste_grid_to_sheet('sheet.png', 'img2.png')
+    ima = Image.open('sheet2-1.png')
 
-"""
-def make_white_pixles_transparent(image):
+    ima.paste(wm, (180,690), mask)
 
-    img = Image.open(image)
-    img = img.convert("RGBA")
-    datas = img.getdata()   
-
-    newData = []
-    for item in datas:
-        if item[0] == 255 and item[1] == 255 and item[2] == 255:
-            newData.append((255, 255, 255, 0))
-        else:
-            newData.append(item)
-
-    img.putdata(newData)
-    img.save("img2.png", "PNG")
-"""
-"""
-def paste_grid_to_sheet(sheet, image):
-
-    #Image on which we want to paste 
-    img1 = Image.open(sheet)  
+    ima.save('test_bingo.png', 'PNG')
     
-    if img1.mode!='RGBA':
-        alpha = Image.new('L', img1.size, 255)
-        img1.putalpha(alpha)
-
-    #Relative Path 
-    #Image which we want to paste 
-    img2 = Image.open(image)  
-    #img1.paste(img2, (50, 50)) 
-        
-    #Saved in the same relative location 
-    #img1.save("bingo_sheet.png", "PNG") 
-    #Image.alpha_composite(img1, img2).save("test3.png")
-"""
-
 
 if __name__ == '__main__':
     value_grid = create_grid(5)
