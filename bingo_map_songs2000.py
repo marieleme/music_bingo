@@ -39,6 +39,13 @@ def map_song_to_grid(value_grid):
     return [[find_song(x, song_list) for x in row] for row in value_grid]
 
 """
+Find lenght for word in string
+"""
+def lenght_of_word(str1):
+    
+
+
+"""
 Change song and artist tuple to pretty strings
 """
 def beautify(song_tuple, max_width):
