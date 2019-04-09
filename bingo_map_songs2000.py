@@ -1,19 +1,24 @@
 import random
-
+import os.path
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
 """
 TODO: make a test to be sure that the grid doesnt have any replicas in it
-"""
-
+"""  
 
 """
 Add random integer to grind for n = 5 x 5
 Random integer will represent song from list. 
 """
 def create_grid(n):
-    return [[random.randint(0, 74) for _ in range(n)] for _ in range(n)]
+    
+    allnum = random.sample(range(75), 25)
 
+    return [[allnum.pop() for x in range(5)] for _ in range(5)]
+    
+    
+    # return [[random.randint(0, 74) for _ in range(n)] for _ in range(n)]
+    
 
 """
 Open txt file, and return string with song and artist
@@ -40,14 +45,15 @@ def map_song_to_grid(value_grid):
 
 """
 Find lenght for word in string
-"""
+
 def lenght_of_word(str1):
-    
+"""
 
 
 """
 Change song and artist tuple to pretty strings
 """
+
 def beautify(song_tuple, max_width):
     str1 = song_tuple[0]
     str2 = song_tuple[1]
@@ -61,11 +67,12 @@ def beautify(song_tuple, max_width):
     return '"' + str(str1) + '"' +"\n"+str(str2)
 
 def draw_image_from_colour_grid(colour_grid):
+
     width = 1800
     string_width = 23
     font_width = 25
     height = 1500
-    opacity = 0.8
+    opacity = 0.5
     transparent = (0, 0, 0, 0)
     white = (255,255,255)
     black = (0,0,0)
@@ -94,7 +101,7 @@ def draw_image_from_colour_grid(colour_grid):
 
     ima.paste(wm, (180,690), mask)
 
-    ima.save('test_bingo.png', 'PNG')
+    ima.save('BINGO/test_bingo.png', 'PNG')
     
 
 if __name__ == '__main__':
