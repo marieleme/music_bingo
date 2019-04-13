@@ -66,8 +66,9 @@ def beautify(song_tuple, max_width):
 
     return '"' + str(str1) + '"' +"\n"+str(str2)
 
-def draw_image_from_colour_grid(colour_grid):
+def draw_image_from_colour_grid(colour_grid, name):
 
+    # width, height = int(8.27 * 300), int(11.7 * 300) # A4 at 300dpi
     width = 1800
     string_width = 23
     font_width = 25
@@ -77,6 +78,8 @@ def draw_image_from_colour_grid(colour_grid):
     white = (255,255,255)
     black = (0,0,0)
     font = ImageFont.truetype('Oswald-Regular.ttf', font_width)
+    name1 = str(name)
+    bingo_name = 'BINGO/test_bingo' + name1 + '.pdf'
 
     wm = Image.new('RGBA',(width,height),transparent)
     im = Image.new('RGBA',(width,height),transparent)
@@ -95,16 +98,16 @@ def draw_image_from_colour_grid(colour_grid):
     im.paste(wm, (25,25), mask)
     im.save('bingo.png', 'PNG')
 
-    
 
     ima = Image.open('sheet2-1.png')
 
     ima.paste(wm, (180,690), mask)
 
-    ima.save('BINGO/test_bingo.png', 'PNG')
+    ima.save(bingo_name, 'PDF')
     
 
 if __name__ == '__main__':
-    value_grid = create_grid(5)
-    colour_grid = map_song_to_grid(value_grid)
-    draw_image_from_colour_grid(colour_grid)
+    for i in range(5):
+        value_grid = create_grid(5)
+        colour_grid = map_song_to_grid(value_grid)
+        draw_image_from_colour_grid(colour_grid, i)
