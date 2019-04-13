@@ -2,9 +2,6 @@ import random
 import os.path
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
-"""
-TODO: make a test to be sure that the grid doesnt have any replicas in it
-"""  
 
 """
 Add random integer to grind for n = 5 x 5
@@ -14,10 +11,8 @@ def create_grid(n):
     
     allnum = random.sample(range(75), 25)
 
-    return [[allnum.pop() for x in range(5)] for _ in range(5)]
-    
-    
-    # return [[random.randint(0, 74) for _ in range(n)] for _ in range(n)]
+    return [[allnum.pop() for x in range(n)] for _ in range(n)]
+
     
 
 """
@@ -43,12 +38,6 @@ def map_song_to_grid(value_grid):
 
     return [[find_song(x, song_list) for x in row] for row in value_grid]
 
-"""
-Find lenght for word in string
-
-def lenght_of_word(str1):
-"""
-
 
 """
 Change song and artist tuple to pretty strings
@@ -68,7 +57,6 @@ def beautify(song_tuple, max_width):
 
 def draw_image_from_colour_grid(colour_grid, name):
 
-    # width, height = int(8.27 * 300), int(11.7 * 300) # A4 at 300dpi
     width = 1800
     string_width = 23
     font_width = 25
@@ -78,8 +66,7 @@ def draw_image_from_colour_grid(colour_grid, name):
     white = (255,255,255)
     black = (0,0,0)
     font = ImageFont.truetype('Oswald-Regular.ttf', font_width)
-    name1 = str(name)
-    bingo_name = 'BINGO/test_bingo' + name1 + '.pdf'
+    bingo_name = 'BINGO/bingo_sheet' + str(name) + '.pdf'
 
     wm = Image.new('RGBA',(width,height),transparent)
     im = Image.new('RGBA',(width,height),transparent)
