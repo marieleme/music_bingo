@@ -1,5 +1,6 @@
 import random
 import os.path
+import sys
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
 
@@ -94,7 +95,14 @@ def draw_image_from_colour_grid(colour_grid, name):
     
 
 if __name__ == '__main__':
-    for i in range(5):
-        value_grid = create_grid(5)
-        colour_grid = map_song_to_grid(value_grid)
-        draw_image_from_colour_grid(colour_grid, i)
+    sheets = input("Number of sheets to be made: ")
+    try:
+        for i in range(int(sheets)):
+            value_grid = create_grid(5)
+            colour_grid = map_song_to_grid(value_grid)
+            draw_image_from_colour_grid(colour_grid, i)
+    except:
+        for i in range(2):
+            value_grid = create_grid(5)
+            colour_grid = map_song_to_grid(value_grid)
+            draw_image_from_colour_grid(colour_grid, i)
