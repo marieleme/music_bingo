@@ -1,6 +1,4 @@
 import random
-import os.path
-import sys
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
 
