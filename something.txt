@@ -1,81 +1,88 @@
-0:All My Life:Foo Fighters 
-1:Ain't No Rest for the Wicked:Cage The Elephant 
-2:Seven Nation Army:The White Stripes 
-3:Joker And The Thief:Wolfmother 
-4:Come Together:Gary Clark Jr. 
-5:Figure It Out:Royal Blood 
-6:The Way You Used to Do:Queens of the Stone Age 
-7:Killing In The Name:Rage Against The Machine 
-8:Chop Suey!:System Of A Down 
-9:Uprising:Muse 
-10:Howlin' For You:The Black Keys 
-11:Are You Gonna Be My Girl:Jet 
-12:Let Me Live / Let Me Die:Des Rocs 
-13:Legend:The Score 
-14:Born For Greatness:Papa Roach 
-15:Go To War:Nothing More 
-16:Lights Out:Royal Blood 
-17:Walk On Water:Thirty Seconds To Mars 
-18:The Devil's Bleeding Crown:Volbeat 
-19:Coming for You:The Offspring 
-20:Legendary:Welshly Arms 
-21:Highway Tune:Greta Van Fleet 
-22:Black Holes (Solid Ground):The Blue Stones 
-23:Prophets Of Rage:Prophets Of Rage 
-24:Bright Lights:Gary Clark Jr. 
-25:Be Legendary:Pop Evil 
-26:hometown:cleopatrick 
-27:Song 2:Blur 
-28:Basket Case:Green Day 
-29:S.O.B.:Nathaniel Rateliff & The Night Sweats 
-30:Run:Foo Fighters 
-31:Oh No:Goodbye June 
-32:No Good:KALEO 
-33:My Name Is Human:Highly Suspect 
-34:Apple Pie:Rafferty 
-35:Asking For It:Shinedown 
-36:Feel Invincible:Skillet 
-37:Take It All:Pop Evil 
-38:Whole Lotta Love - 1990 Remaster:Led Zeppelin 
-39:Enter Sandman:Metallica 
-40:Slither:Velvet Revolver 
-41:Savior:Rise Against 
-42:Bored To Death:blink-182 
-43:Thrash Unreal:Against Me! 
-44:Fire:Barns Courtney 
-45:Club Foot:Kasabian 
-46:Rebel Heart:The Shelters 
-47:The Vengeful One:Disturbed 
-48:State Of My Head:Shinedown 
-49:Elephant:Tame Impala 
-50:What Went Down:Foals 
-51:Night People:You Me At Six 
-52:You Rascal You:Hanni El Khatib 
-53:What Makes A Good Man?:The Heavy 
-54:Ten Tonne Skeleton:Royal Blood 
-55:My Own Worst Enemy:Lit 
-56:What's My Age Again?:blink-182 
-57:Welcome To The Jungle:Guns N' Roses 
-58:Sweet Emotion:Aerosmith 
-59:Sex on Fire:Kings of Leon 
-60:Asleep at the Wheel:Band Of Skulls 
-61:Sixteen Saltines:Jack White 
-62:Dirty Deeds Done Dirt Cheap:AC/DC 
-63:I’m So Sorry:Imagine Dragons 
-64:Lydia:Highly Suspect 
-65:No One Knows:Queens of the Stone Age 
-66:Touch, Peel And Stand:Days Of The New 
-67:Trip Switch:Nothing But Thieves 
-68:Footsteps:Pop Evil 
-69:Take a Sip:Skrizzly Adams 
-70:Give It Away:Red Hot Chili Peppers 
-71:Spoonman:Soundgarden 
-72:Miss Murder:AFI 
-73:Smells Like Teen Spirit:Nirvana 
-74:Do I Wanna Know?:Arctic Monkeys 
-75:Could Have Been Me:The Struts 
-76:The Hand That Feeds:Nine Inch Nails 
-77:When I Come Around:Green Day 
-78:Even Flow:Pearl Jam 
-79:Kings And Queens:Thirty Seconds To Mars 
-80:Bullet With Butterfly Wings - Remastered 2012:The Smashing Pumpkins 
+0:Beggin:Madcon 
+1:Ambitions:Donkeyboy 
+2:Sweet Home Alabama:Lynyrd Skynyrd 
+3:Toppløs:rOlfFa 
+4:Nederst på lista:Resirkulert 
+5:Diamonds:Rihanna 
+6:Jailhouse Rock:Elvis Presley 
+7:Don't Stop Me Now:Queen 
+8:Roxanne:The Police 
+9:Happy Together:The Turtles 
+10:Wake Me up Before You Go-Go:Wham! 
+11:Shallow:Lady Gaga 
+12:bad guy:Billie Eilish 
+13:Sweet but Psycho:Ava Max 
+14:Raske Briller:Nicolay Ramm 
+15:Emotion:Astrid S 
+16:Don't Kill My Vibe:Sigrid 
+17:Valerie:Amy Winehouse 
+18:Dancing On My Own:Robyn 
+19:9 To 5:Dolly Parton 
+20:Dancing Queen:ABBA 
+21:Party In The U.S.A.:Miley Cyrus 
+22:Umbrella:Rihanna 
+23:Waterloo:Cher 
+24:Hey There Delilah:Plain White T's 
+25:Wannabe:Spice Girls 
+26:Oops!...I Did It Again:Britney Spears 
+27:Uptown Girl:Billy Joel 
+28:Sugar:Maroon 5 
+29:Kiss Me:Sixpence None The Richer 
+30:Bad Romance:Lady Gaga 
+31:Who's Lovin' You:The Jackson 5 
+32:I Say a Little Prayer:Aretha Franklin 
+33:Feeling Good:Nina Simone 
+34:Something's Got A Hold On Me:Etta James 
+35:Love On The Brain:Rihanna 
+36:Take Me To Church:Hozier 
+37:It's Raining Men:The Weather Girls 
+38:Somebody That I Used To Know:Gotye 
+39:Love You Like That:Dagny 
+40:IDGAF:Dua Lipa 
+41:Sorry Not Sorry:Demi Lovato 
+42:Nothing Breaks Like a Heart (feat. Miley Cyrus):Mark Ronson 
+43:Not Gonna Cry:Emma Steinbakken 
+44:Fredag:Kjartan Lauritzen 
+45:Disco Demolition 2018 (Stabekk Anthem):J-Dawg 
+46:Sommerkroppen:Mads Hansen 
+47:Engel:Admiral P 
+48:Lett å være rebell i kjellerleiligheten din:Karpe 
+49:Godmorgen Norge:Vinni 
+50:Optimist:Jahn Teigen 
+51:Hjalmar:Trond-Viggo Torgersen 
+52:Sillikon I Tatti:Vassendgutane 
+53:Wake Me Up:Avicii 
+54:I Kissed A Girl:Katy Perry 
+55:Rolling in the Deep:Adele 
+56:Det e over:Sondre Justad 
+57:Pumped Up Kicks:Foster The People 
+58:Wuthering Heights:Kate Bush 
+59:Måndagsbarn:Veronica Maggio 
+60:Escape (The Pina Colada Song):Rupert Holmes 
+61:Thunderstruck:AC/DC 
+62:Hooked on a Feeling:Blue Swede 
+63:Weapons of Mass Distraction:This Way Up 
+64:Neste sommer:deLillos 
+65:Vil Du Vaerra Me' Mae Hjem I Natt:The Kids 
+66:Hun Er Forelska I Lærer'n:The Kids 
+67:Ring meg:Gabrielle 
+68:Håper du har plass:Cezinando 
+69:Leende guldbruna ögon:Vikingarna 
+70:Majesty:Madrugada 
+71:Splitter Pine:Dumdum Boys 
+72:Granada:Vassendgutane 
+73:E-ore:Ravi 
+74:Riv i hjertet:Sondre Justad 
+75:Billie Jean:Michael Jackson 
+76:Don't Stop Believin':Journey 
+77:Hotel California:Eagles 
+78:Born To Be Wild:Steppenwolf 
+79:September:Earth, Wind & Fire 
+80:Born in the U.S.A.:Bruce Springsteen 
+81:Bleeding Love:Leona Lewis 
+82:...Baby One More Time:Britney Spears 
+83:Sweet Child O' Mine:Guns N' Roses 
+84:I Was Made For Lovin' You:KISS 
+85:Poison:Alice Cooper 
+86:Vadsø:Banana Airlines 
+87:Tore Tang:Mods 
