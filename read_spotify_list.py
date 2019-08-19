@@ -7,9 +7,11 @@ import json
 client_credentials_manager = SpotifyClientCredentials(client_id='b7ddf409ea2447e2b51d3a9013fdc65e', client_secret='bed965d091b341b8846cca8a0f34db5d')
 sp = spotipy.Spotify(client_credentials_manager=client_credentials_manager)
 
-uri = 'spotify:user:1111932445:playlist:0EamcIJwK2nZWS6iKcNwZ5'
-username = uri.split(':')[2]
-playlist_id = uri.split(':')[4]
+# spotify:user:1111932445:playlist:0EamcIJwK2nZWS6iKcNwZ5
+
+uri = 'spotify:playlist:7Im8oz8h3jkrOqMPIcZTpb'
+username = 'spotify'
+playlist_id = uri.split(':')[2]
 
 def show_tracks(results):
     for i, item in enumerate(results['items']):
