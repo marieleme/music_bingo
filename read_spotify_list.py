@@ -17,7 +17,8 @@ def show_tracks(results):
     for i, item in enumerate(results['items']):
         track = item['track']
         with open("something.txt", "a") as file:
-            file.write("%d:%s:%s \n" % (i, track['name'], track['artists'][0]['name']))
+            string = ("%d:%s:%s \n" % (i, track['name'], track['artists'][0]['name'])).encode('utf-8')
+            file.write(string)
 
 
 playlists = sp.user_playlists(username)
