@@ -25,7 +25,7 @@ def open_playlist_file():
 
 def find_song(i, song_list):
     for song in song_list:
-        songinfo = song.split(":")
+        songinfo = song.decode('utf-8').split(":")
         if i == int(songinfo[0]):
             return (songinfo[1],songinfo[2])
                  
@@ -41,7 +41,6 @@ def map_song_to_grid(value_grid):
 """
 Change song and artist tuple to pretty strings
 """
-
 def beautify(song_tuple, max_width):
     str1 = song_tuple[0]
     str2 = song_tuple[1]
@@ -52,7 +51,7 @@ def beautify(song_tuple, max_width):
     if(len(song_tuple[1]) > max_width):
         str2 = str2[:max_width] + "- \n" + str2[max_width:]
 
-    return '"' + str(str1) + '"' +"\n"+str(str2)
+    return ('"' + str(str1) + '"' +"\n"+str(str2)).encode('utf-8')
 
 def draw_image_from_colour_grid(colour_grid, name):
 
@@ -78,6 +77,8 @@ def draw_image_from_colour_grid(colour_grid, name):
             draw.text((i*265, j*260), some, black, font)
 
 
+    draw.text((2350, 3450), str(name), black, font)
+
     en = ImageEnhance.Brightness(wm)
     mask = en.enhance(1-opacity)
 
@@ -85,7 +86,7 @@ def draw_image_from_colour_grid(colour_grid, name):
     im.save('bingo.png', 'PNG')
 
     #sheet2-1
-    ima = Image.open('ananas.png')
+    ima = Image.open('sheet2-1.png')
 
     ima.paste(wm, (180,690), mask)
 
@@ -94,7 +95,7 @@ def draw_image_from_colour_grid(colour_grid, name):
 
 if __name__ == '__main__':
     #300 ark bingo 19
-    for i in range(60):
+    for i in range(1):
         value_grid = create_grid(5)
         colour_grid = map_song_to_grid(value_grid)
         draw_image_from_colour_grid(colour_grid, i)
