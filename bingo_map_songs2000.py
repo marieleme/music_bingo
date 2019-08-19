@@ -8,7 +8,7 @@ Random integer will represent song from list.
 """
 def create_grid(n):
     
-    allnum = random.sample(range(88), 25)
+    allnum = random.sample(range(35), 25)
 
     return [[allnum.pop() for x in range(n)] for _ in range(n)]
 
@@ -84,8 +84,8 @@ def draw_image_from_colour_grid(colour_grid, name):
     im.paste(wm, (25,25), mask)
     im.save('bingo.png', 'PNG')
 
-
-    ima = Image.open('sheet2-1.png')
+    #sheet2-1
+    ima = Image.open('ananas.png')
 
     ima.paste(wm, (180,690), mask)
 
@@ -94,7 +94,7 @@ def draw_image_from_colour_grid(colour_grid, name):
 
 if __name__ == '__main__':
     #300 ark bingo 19
-    for i in range(200):
+    for i in range(60):
         value_grid = create_grid(5)
         colour_grid = map_song_to_grid(value_grid)
         draw_image_from_colour_grid(colour_grid, i)
