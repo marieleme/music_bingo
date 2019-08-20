@@ -1,3 +1,4 @@
+##### HUSK Å KJØR I PYTHON3 #####
 import random
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
@@ -8,7 +9,7 @@ Random integer will represent song from list.
 """
 def create_grid(n):
     
-    allnum = random.sample(range(35), 25)
+    allnum = random.sample(range(85), 25)
 
     return [[allnum.pop() for x in range(n)] for _ in range(n)]
 
@@ -25,7 +26,7 @@ def open_playlist_file():
 
 def find_song(i, song_list):
     for song in song_list:
-        songinfo = song.decode('utf-8').split(":")
+        songinfo = song.split(":")
         if i == int(songinfo[0]):
             return (songinfo[1],songinfo[2])
                  
@@ -51,12 +52,12 @@ def beautify(song_tuple, max_width):
     if(len(song_tuple[1]) > max_width):
         str2 = str2[:max_width] + "- \n" + str2[max_width:]
 
-    return ('"' + str(str1) + '"' +"\n"+str(str2)).encode('utf-8')
+    return '"' + str(str1) + '"' +"\n"+str(str2)
 
 def draw_image_from_colour_grid(colour_grid, name):
 
     width = 1800
-    string_width = 23
+    string_width = 21 #23
     font_width = 25
     height = 1500
     opacity = 0.5
@@ -77,16 +78,16 @@ def draw_image_from_colour_grid(colour_grid, name):
             draw.text((i*265, j*260), some, black, font)
 
 
-    draw.text((2350, 3450), str(name), black, font)
+    draw.text((1340, 1470), str(name), black, font)
 
     en = ImageEnhance.Brightness(wm)
     mask = en.enhance(1-opacity)
 
-    im.paste(wm, (25,25), mask)
-    im.save('bingo.png', 'PNG')
+    # im.paste(wm, (25,25), mask)
+    # im.save('bingo.png', 'PNG')
 
     #sheet2-1
-    ima = Image.open('sheet2-1.png')
+    ima = Image.open('test_sheet.png')
 
     ima.paste(wm, (180,690), mask)
 
@@ -94,8 +95,8 @@ def draw_image_from_colour_grid(colour_grid, name):
     
 
 if __name__ == '__main__':
-    #300 ark bingo 19
-    for i in range(1):
+    # 250 ark
+    for i in range(250):
         value_grid = create_grid(5)
         colour_grid = map_song_to_grid(value_grid)
         draw_image_from_colour_grid(colour_grid, i)
