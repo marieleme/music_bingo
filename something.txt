@@ -1,7 +1,7 @@
 0:Spis din syvende sans:Karpe 
 1:Fredag:Kjartan Lauritzen 
 2:Dance Monkey:Tones and I 
-3:Habits (Stay High):Tove Lo 
+3:Habits:Tove Lo 
 4:Royals:Lorde 
 5:Final Song:MØ 
 6:Vi Kanke Være Venner:Unge Ferrari 
@@ -14,7 +14,7 @@
 13:I Love It (feat. Charli XCX):Icona Pop 
 14:Dancing in the Moonlight:Jubël 
 15:Move On Up:Curtis Mayfield 
-16:I Will Survive - Single Version:Gloria Gaynor 
+16:I Will Survive:Gloria Gaynor 
 17:Blame It on the Boogie:The Jacksons 
 18:Killing Me Softly with His Song:Roberta Flack 
 19:Put Your Head On My Shoulder:Paul Anka 
@@ -53,14 +53,14 @@
 52:Sillikon I Tatti:Vassendgutane 
 53:E-Ore:DJ Løv 
 54:Cheerio:The Monroes 
-55:Beggin (original version):Madcon 
+55:Beggin:Madcon 
 56:9 To 5:Dolly Parton 
 57:Måndagsbarn:Veronica Maggio 
 58:Born To Be Wild:Steppenwolf 
 59:Wannabe:Spice Girls 
 60:Don't Kill My Vibe:Sigrid 
 61:Sweet Home Alabama:Lynyrd Skynyrd 
-62:Don't Cha - Radio Edit:The Pussycat Dolls 
+62:Don't Cha:The Pussycat Dolls 
 63:Hollaback Girl:Gwen Stefani 
 64:Dilemma:Nelly 
 65:King Kunta:Kendrick Lamar 
@@ -76,10 +76,10 @@
 75:I Don't Want to Be:Gavin DeGraw 
 76:So What:P!nk 
 77:Wrecking Ball:Miley Cyrus 
-78:Vil Du Værra Med Mæ Hjem I Natt - Unplugged Version D&T:The Kids 
+78:Vil Du Værra Med Mæ Hjem I Natt:The Kids 
 79:Æ vil bare dans:Sirkus Eliassen 
 80:Hooked on a Feeling:Björn Skifs 
 81:Shake It Off:Taylor Swift 
-82:Lose Yourself - From "8 Mile" Soundtrack:Eminem 
+82:Lose Yourself:Eminem 
 83:Lush Life:Zara Larsson 
 84:Truth Hurts:Lizzo 
