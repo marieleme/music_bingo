@@ -1,3 +1,4 @@
+# -*- coding: utf-8 -*-
 from spotipy.oauth2 import SpotifyClientCredentials
 import spotipy 
 import spotipy.util as util
