@@ -1,85 +1,100 @@
-0:Spis din syvende sans:Karpe 
-1:Fredag:Kjartan Lauritzen 
-2:Dance Monkey:Tones and I 
-3:Habits:Tove Lo 
-4:Royals:Lorde 
-5:Final Song:MØ 
-6:Vi Kanke Være Venner:Unge Ferrari 
-7:Majesty:Madrugada 
-8:Pumped Up Kicks:Foster The People 
-9:Beyond:Leon Bridges 
-10:HALLO:Isah 
-11:jeg er lei meg:MARS 
-12:Fontena på Youngstorget:Sondre Justad 
-13:I Love It (feat. Charli XCX):Icona Pop 
-14:Dancing in the Moonlight:Jubël 
-15:Move On Up:Curtis Mayfield 
-16:I Will Survive:Gloria Gaynor 
-17:Blame It on the Boogie:The Jacksons 
-18:Killing Me Softly with His Song:Roberta Flack 
-19:Put Your Head On My Shoulder:Paul Anka 
-20:Release Me:Agnes 
-21:Into You:Ariana Grande 
-22:FourFiveSeconds:Rihanna 
-23:Disco Demolition 2018 (Stabekk Anthem):J-Dawg 
-24:Gikk i Bakken:Dårlig Vane 
-25:5 fine frøkner:Gabrielle 
-26:Elektrisk:Marcus & Martinus 
-27:Bare så du vett det:Stavangerkameratene 
-28:Neste Sommer:TIX 
-29:Jenter:Di Derre 
-30:Kursiv:Trang Fødsel 
-31:Tidløs:Postgirobygget 
-32:Splitter Pine:Dumdum Boys 
-33:Sorry:AF1 
-34:Hun Er Forelska I Lærer'n:The Kids 
-35:Ikke som de andre:Sondre Justad 
-36:Señorita:Shawn Mendes 
-37:Jag kommer:Veronica Maggio 
-38:E6:D.D.E. 
-39:Such A Boy:Astrid S 
-40:bad guy:Billie Eilish 
-41:Hips Don't Lie:Shakira 
-42:Toxic:Britney Spears 
-43:...Baby One More Time:Britney Spears 
-44:Vondt I Hjertet:Razika 
-45:Flytta på dej:Alina Devecerski 
-46:Sexual:NEIKED 
-47:Cool Girl:Tove Lo 
-48:Starboy:The Weeknd 
-49:Dum og deilig:Knutsen & Ludvigsen 
-50:Godmorgen Norge:Vinni 
-51:Kjærlighet er mer enn forelskelse:Gaute Ormåsen 
-52:Sillikon I Tatti:Vassendgutane 
-53:E-Ore:DJ Løv 
-54:Cheerio:The Monroes 
-55:Beggin:Madcon 
-56:9 To 5:Dolly Parton 
-57:Måndagsbarn:Veronica Maggio 
-58:Born To Be Wild:Steppenwolf 
-59:Wannabe:Spice Girls 
-60:Don't Kill My Vibe:Sigrid 
-61:Sweet Home Alabama:Lynyrd Skynyrd 
-62:Don't Cha:The Pussycat Dolls 
-63:Hollaback Girl:Gwen Stefani 
-64:Dilemma:Nelly 
-65:King Kunta:Kendrick Lamar 
-66:Fuck You:CeeLo Green 
-67:Nordlending:Unit Five 
-68:Vadsø:Banana Airlines 
-69:Toppløs:rOlfFa 
-70:Nordaførr:RSP & Thomax 
-71:9000 Byen:Violet Road 
-72:Hjerterått:Agnete SlinCraze Dash 
-73:Redbone:Childish Gambino 
-74:Alla vill till himmelen men ingen vill dö:Timbuktu 
-75:I Don't Want to Be:Gavin DeGraw 
-76:So What:P!nk 
-77:Wrecking Ball:Miley Cyrus 
-78:Vil Du Værra Med Mæ Hjem I Natt:The Kids 
-79:Æ vil bare dans:Sirkus Eliassen 
-80:Hooked on a Feeling:Björn Skifs 
-81:Shake It Off:Taylor Swift 
-82:Lose Yourself:Eminem 
-83:Lush Life:Zara Larsson 
-84:Truth Hurts:Lizzo 
+0:Royals:Lorde 
+1:Vi Kanke Være Venner:Unge Ferrari 
+2:Majesty:Madrugada 
+3:Final Song:MØ 
+4:Pumped Up Kicks:Foster The People 
+5:Beyond:Leon Bridges 
+6:Dancing in the Moonlight:Jubël 
+7:I Will Survive:Gloria Gaynor 
+8:Release Me:Agnes 
+9:Disco Demolition 2018 (Stabekk Anthem):J-Dawg 
+10:Jenter:Di Derre 
+11:Kursiv:Trang Fødsel 
+12:bad guy:Billie Eilish 
+13:Toxic:Britney Spears 
+14:Starboy:The Weeknd 
+15:Kjærlighet er mer enn forelskelse:Gaute Ormåsen 
+16:Sillikon I Tatti:Vassendgutane 
+17:E-Ore:DJ Løv 
+18:Cheerio:The Monroes 
+19:Beggin:Madcon 
+20:9 To 5:Dolly Parton 
+21:Born To Be Wild:Steppenwolf 
+22:Wannabe:Spice Girls 
+23:Don't Kill My Vibe:Sigrid 
+24:Sweet Home Alabama:Lynyrd Skynyrd 
+25:Don't Cha:The Pussycat Dolls 
+26:Hollaback Girl:Gwen Stefani 
+27:Dilemma:Nelly 
+28:King Kunta:Kendrick Lamar 
+29:Nordlending:Unit Five 
+30:Vadsø:Banana Airlines 
+31:Toppløs:rOlfFa 
+32:Hjerterått:Agnete SlinCraze Dash 
+33:Redbone:Childish Gambino 
+34:I Don't Want to Be:Gavin DeGraw 
+35:So What:P!nk 
+36:Wrecking Ball:Miley Cyrus 
+37:Vil Du Værra Med Mæ Hjem I Natt:The Kids 
+38:Æ vil bare dans:Sirkus Eliassen 
+39:Shake It Off:Taylor Swift 
+40:Lose Yourself:Eminem 
+41:Nordaførr:RSP & Thomax 
+42:Lush Life:Zara Larsson 
+43:Idyll:Postgirobygget 
+44:Vil Du Vaerra Me' Mae Hjem I Natt:The Kids 
+45:Optimist:Jahn Teigen 
+46:Young Dumb & Broke:Khalid 
+47:Håper du har plass:Cezinando 
+48:Riv i hjertet:Sondre Justad 
+49:Old Town Road:Lil Nas X 
+50:Grace Kelly:MIKA 
+51:Don't Call Me Up:Mabel 
+52:Om igjen:Razika 
+53:Not Gonna Cry:Emma Steinbakken 
+54:Bodak Yellow:Cardi B 
+55:Bitch Better Have My Money:Rihanna 
+56:Drunk in Love:Beyoncé 
+57:goosebumps:Travis Scott 
+58:Mask Off:Future 
+59:Born To Die:Lana Del Rey 
+60:Bad Girls:M.I.A. 
+61:Run the World:Beyoncé 
+62:Hit Your Heart:Dagny 
+63:Don't Worry Bout Me:Zara Larsson 
+64:Sweet but Psycho:Ava Max 
+65:En Solskinnsdag:Postgirobygget 
+66:Granada:Vassendgutane 
+67:Hjem til dæ:Sirkus Eliassen 
+68:Engel:Admiral P 
+69:Den Låta:Erik Og Kriss 
+70:Hjalmar:Trond-Viggo Torgersen 
+71:Gjør det igjen:Sondre Justad 
+72:Lett å være rebell i kjellerleiligheten din:Karpe 
+73:Har Du Fyr:Hekla Stålstrenga 
+74:Emotion:Astrid S 
+75:Balkong:Unge Ferrari 
+76:Styggen på ryggen:OnklP & De Fjerne Slektningene 
+77:Pinne for landet:Freddy Kalas 
+78:Shallow:Lady Gaga 
+79:Poker Face:Lady Gaga 
+80:Womanizer:Britney Spears 
+81:Genie In a Bottle:Christina Aguilera 
+82:SOS:Rihanna 
+83:Who's That Chick? (feat. Rihanna):David Guetta 
+84:All Of The Lights:Kanye West 
+85:Bootylicious:Destiny's Child 
+86:Jenny from the Block (feat. Jadakiss & Styles P.):Jennifer Lopez 
+87:Milkshake:Kelis 
+88:No Scrubs:TLC 
+89:Gold Digger:Kanye West 
+90:She's so High:Tal Bachman 
+91:Kiss Me:Sixpence None The Richer 
+92:Africa:Toto 
+93:Fy Faen:Hkeem 
+94:Gunerius - Remix:Amanda Delara 
+95:Plystre på deg:Marcus & Martinus 
+96:Glad He's Gone:Tove Lo 
+97:Piano Man:Billy Joel 
+98:break up with your girlfriend, i'm bored:Ariana Grande 
+99:Dance Monkey:Tones and I 
