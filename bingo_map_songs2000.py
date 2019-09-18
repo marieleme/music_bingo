@@ -9,7 +9,7 @@ Random integer will represent song from list.
 """
 def create_grid(n):
     
-    allnum = random.sample(range(85), 25)
+    allnum = random.sample(range(100), 25)
 
     return [[allnum.pop() for x in range(n)] for _ in range(n)]
 
