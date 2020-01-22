@@ -1,29 +1,36 @@
 ##### HUSK Å KJØR I PYTHON3 #####
 import random
+import config as cf
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
-
 """
-Add random integer to grind for n = 5 x 5
-Random integer will represent song from list. 
+Add random integer to grid for n = 5 x 5
+Integer will represent song from list. 
 """
-def create_grid(n):
-    
-    allnum = random.sample(range(100), 25)
-
+def create_grid(n, amount_songs):
+    allnum = random.sample(range(amount_songs), 25)
     return [[allnum.pop() for x in range(n)] for _ in range(n)]
 
-    
 
 """
 Open txt file, and return string with song and artist
 """
 def open_playlist_file():
-    f = open("something.txt", "r")
-    song_list = f.readlines()
-    f.close()  
+    with open("formated_playlist.txt", "r") as f:
+        song_list = f.readlines()
     return song_list
 
+"""
+Returns amount of songs in playlist
+"""
+def count_songs_in_playlist():
+    with open("formated_playlist.txt", "r") as f:
+        amount_songs = sum(1 for _ in f)
+    return amount_songs
+
+"""
+Find song with the equivalent number between song_list and grid
+"""
 def find_song(i, song_list):
     for song in song_list:
         songinfo = song.split(":")
@@ -31,12 +38,14 @@ def find_song(i, song_list):
             return (songinfo[1],songinfo[2])
                  
 """
-Replace grind number with tuple of song and artist
+Replace grid number with tuple of song and artist
 """
-def map_song_to_grid(value_grid):
+def map_song_to_grid():
     song_list = open_playlist_file()
+    amount_songs = count_songs_in_playlist()
+    grid = create_grid(5, amount_songs)
 
-    return [[find_song(x, song_list) for x in row] for row in value_grid]
+    return [[find_song(x, song_list) for x in row] for row in grid]
 
 
 """
@@ -64,7 +73,7 @@ def draw_image_from_colour_grid(colour_grid, name):
     transparent = (0, 0, 0, 0)
     white = (255,255,255)
     black = (0,0,0)
-    font = ImageFont.truetype('Oswald-Regular.ttf', font_width)
+    font = ImageFont.truetype('font/Oswald-Regular.ttf', font_width)
     bingo_name = 'BINGO/bingo_sheet' + str(name) + '.pdf'
 
     wm = Image.new('RGBA',(width,height),transparent)
@@ -95,8 +104,7 @@ def draw_image_from_colour_grid(colour_grid, name):
     
 
 if __name__ == '__main__':
-    # 250 ark
-    for i in range(250):
-        value_grid = create_grid(5)
-        colour_grid = map_song_to_grid(value_grid)
+    for i in range(cf.AMOUNT_SHEETS):
+        # value_grid = create_grid(5)
+        colour_grid = map_song_to_grid()
         draw_image_from_colour_grid(colour_grid, i)
