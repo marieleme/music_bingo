@@ -10,3 +10,9 @@ Run
     ```python3 bingo_map_songs2000.py``` <br>
     
 Then type in amount of bingo sheets to be generated
+
+## Requirements
+* python 3.x
+* pillow
+* spotipy
+* PyPDF2
