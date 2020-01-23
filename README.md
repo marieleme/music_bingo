@@ -13,6 +13,7 @@ Then type in amount of bingo sheets to be generated
 
 ## Requirements
 * python 3.x
+Pip3 requirements:
 * pillow
 * spotipy
 * PyPDF2
