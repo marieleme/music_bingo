@@ -105,6 +105,5 @@ def draw_image_from_colour_grid(colour_grid, name):
 
 if __name__ == '__main__':
     for i in range(cf.AMOUNT_SHEETS):
-        # value_grid = create_grid(5)
         colour_grid = map_song_to_grid()
         draw_image_from_colour_grid(colour_grid, i)
