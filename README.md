@@ -11,7 +11,7 @@ Run
     
     
 ## Requirements
-* python 3.x
+* python 3.x <br>
 Pip3 requirements:
 * pillow
 * spotipy
