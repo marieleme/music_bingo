@@ -1,18 +1,18 @@
 from PyPDF2 import PdfFileMerger
+from tqdm import tqdm
 import config as cf
 
 pdfs = []
 
-name = 'BINGO/bingo_sheet'
-for i in range(cf.AMOUNT_SHEETS):
-    text = name + str(i) + '.pdf'
+for i in tqdm(range(cf.AMOUNT_SHEETS)):
+    text = cf.BINGO_FOLDER + cf.SHEET_NAME + str(i) + cf.PDF
     pdfs.append(text)
 
 
 merger = PdfFileMerger()
 
-for pdf in pdfs:      
+for pdf in tqdm(pdfs):      
     merger.append(pdf)
 
-merger.write("merged_bingo_sheets.pdf")
+merger.write(cf.MERGED_BINGO_SHEETS)
 merger.close()
