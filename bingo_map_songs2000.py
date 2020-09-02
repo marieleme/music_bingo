@@ -1,6 +1,7 @@
 ##### HUSK Å KJØR I PYTHON3 #####
 import random
 import config as cf
+from tqdm import tqdm
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
 
 """
@@ -16,7 +17,7 @@ def create_grid(n, amount_songs):
 Open txt file, and return string with song and artist
 """
 def open_playlist_file():
-    with open("formated_playlist.txt", "r") as f:
+    with open(cf.PLAYLIST, "r") as f:
         song_list = f.readlines()
     return song_list
 
@@ -24,7 +25,7 @@ def open_playlist_file():
 Returns amount of songs in playlist
 """
 def count_songs_in_playlist():
-    with open("formated_playlist.txt", "r") as f:
+    with open(cf.PLAYLIST, "r") as f:
         amount_songs = sum(1 for _ in f)
     return amount_songs
 
@@ -63,6 +64,9 @@ def beautify(song_tuple, max_width):
 
     return '"' + str(str1) + '"' +"\n"+str(str2)
 
+"""
+Create bingo sheet 
+"""
 def draw_image_from_colour_grid(colour_grid, name):
 
     width = 1800
@@ -73,8 +77,8 @@ def draw_image_from_colour_grid(colour_grid, name):
     transparent = (0, 0, 0, 0)
     white = (255,255,255)
     black = (0,0,0)
-    font = ImageFont.truetype('font/Oswald-Regular.ttf', font_width)
-    bingo_name = 'BINGO/bingo_sheet' + str(name) + '.pdf'
+    font = ImageFont.truetype(cf.FONT, font_width)
+    bingo_sheet = cf.BINGO_FOLDER + cf.SHEET_NAME + str(name) + cf.PDF
 
     wm = Image.new('RGBA',(width,height),transparent)
     im = Image.new('RGBA',(width,height),transparent)
@@ -92,18 +96,15 @@ def draw_image_from_colour_grid(colour_grid, name):
     en = ImageEnhance.Brightness(wm)
     mask = en.enhance(1-opacity)
 
-    # im.paste(wm, (25,25), mask)
-    # im.save('bingo.png', 'PNG')
-
     #sheet2-1
-    ima = Image.open('test_sheet.png')
+    ima = Image.open(cf.TMP_SHEET)
 
     ima.paste(wm, (180,690), mask)
 
-    ima.save(bingo_name, 'PDF')
+    ima.save(bingo_sheet, 'PDF')
     
 
 if __name__ == '__main__':
-    for i in range(cf.AMOUNT_SHEETS):
+    for i in tqdm(range(cf.AMOUNT_SHEETS)):
         colour_grid = map_song_to_grid()
         draw_image_from_colour_grid(colour_grid, i)
