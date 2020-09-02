@@ -1,12 +1,7 @@
 # music_bingo
 Code for generating bingo sheets based on spotify playlist.
 ## Requirements
-<<<<<<< HEAD
-* python 3.x <br>
-Pip3 requirements:
-=======
 * python 3.x
->>>>>>> make_bash
 * pillow
 * spotipy
 * PyPDF2
