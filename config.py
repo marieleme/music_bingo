@@ -1,9 +1,16 @@
 """
 Inputs for generating the sheets.
 """
-CLIENT_ID = 'e1f1370248bd41569909795fe07ec753'
-CLIENT_SECRET = '6617b3d192a542c0949e633725058f85'
-PLAYLIST_URI = 'spotify:playlist:1o8aYY4yaQwnb4FHwwgdXK'
+CLIENT_ID = ''
+CLIENT_SECRET = ''
+
+""" 
+In a sportify "Copy link to playlist"- link, the URI is the section between {[ ]}:
+
+https://open.spotify.com/playlist/ {[37i9dQZEVXcIDk0U5Z8tbq]} ?si=1ec6601cfcf44e5c
+"""
+
+PLAYLIST_URI = 'spotify:playlist:37i9dQZEVXcIDk0U5Z8tbq'
 AMOUNT_SHEETS = 3
 
 
