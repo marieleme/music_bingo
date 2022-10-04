@@ -1,10 +1,12 @@
 # music_bingo
 Code for generating bingo sheets based on spotify playlist.
 ## Requirements
-* python 3.x
+* python 3.x <br>
+### pip3 install
 * pillow
 * spotipy
 * PyPDF2
+* tqdm
 
 ## How to generate bingo sheets
 REMEMBER: The spotify lists must have a minimum of 25 songs!
@@ -17,7 +19,7 @@ If you are going to combine more playlists, only alter the **PLAYLIST_URI** by i
 <br>
 
 #### Generate bingo sheets
-Now to make the bingo sheets, run `step 2`. Unique bingo sheets will be made inside the `BINGO/` folder. This process may take a minute, depending on the amount of sheets to be made. 
+Now to make the bingo sheets, run `step 2`. Unique bingo sheets will be made inside the `BINGO/` folder. This folder must be manually made if it does not exist. This process may take a minute, depending on the amount of sheets to be made. 
 > step 2 : Run
     ```python3 bingo_map_songs2000.py``` 
 
