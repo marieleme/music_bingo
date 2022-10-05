@@ -1,8 +1,10 @@
 ##### HUSK Å KJØR I PYTHON3 #####
+from genericpath import exists
 import random
 import config as cf
 from tqdm import tqdm
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
+from os import mkdir, path
 
 """
 Add random integer to grid for n = 5 x 5
@@ -12,6 +14,10 @@ def create_grid(n, amount_songs):
     allnum = random.sample(range(amount_songs), 25)
     return [[allnum.pop() for x in range(n)] for _ in range(n)]
 
+def make_dir():
+    if path.exists(cf.BINGO_FOLDER):
+        return
+    mkdir(cf.BINGO_FOLDER)
 
 """
 Open txt file, and return string with song and artist
@@ -105,6 +111,7 @@ def draw_image_from_colour_grid(colour_grid, name):
     
 
 if __name__ == '__main__':
+    make_dir()
     for i in tqdm(range(cf.AMOUNT_SHEETS)):
         colour_grid = map_song_to_grid()
         draw_image_from_colour_grid(colour_grid, i)
