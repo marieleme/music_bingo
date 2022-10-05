@@ -7,6 +7,7 @@ Code for generating bingo sheets based on spotify playlist.
 * spotipy
 * PyPDF2
 * tqdm
+* PyMuPDF
 
 ## How to generate bingo sheets
 REMEMBER: The spotify lists must have a minimum of 25 songs!
