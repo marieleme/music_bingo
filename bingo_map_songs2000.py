@@ -4,7 +4,8 @@ import random
 import config as cf
 from tqdm import tqdm
 from PIL import Image, ImageDraw, ImageFont, ImageEnhance
-from os import mkdir, path
+from os import mkdir, path, remove
+from fitz import fitz, Rect
 
 """
 Add random integer to grid for n = 5 x 5
@@ -102,13 +103,40 @@ def draw_image_from_colour_grid(colour_grid, name):
     en = ImageEnhance.Brightness(wm)
     mask = en.enhance(1-opacity)
 
-    #sheet2-1
+    # Opens the template sheet
     ima = Image.open(cf.TMP_SHEET)
 
     ima.paste(wm, (180,690), mask)
 
     ima.save(bingo_sheet, 'PDF')
+
+    # Adds logo if specified
+    if cf.LOGO:
+        add_logo(bingo_sheet)
+
+
+def add_logo(pdf_name):
+    """ Adds to logos to the given PDF """
     
+    pdf = fitz.open(pdf_name)
+
+    # opens logo specified in cf file
+    img = open(cf.LOGO, "rb").read()
+    
+    page_width = 1654
+
+    logo_dim = cf.LOGO_DIM
+    logo_x = cf.LOGO_X
+    logo_y = cf.LOGO_Y
+
+    # Define area which the logo should cover
+    left_logo = Rect(logo_x, logo_y, logo_x+logo_dim, logo_y+logo_dim)    
+    right_logo = Rect(page_width-logo_dim-logo_x, logo_y, page_width-logo_x, logo_dim+logo_y) # Mirrors the x-coordinates
+
+    # Insert logo to left and right side of image
+    pdf[0].insert_image(left_logo, stream=img)
+    pdf[0].insert_image(right_logo, stream=img)    
+    pdf.saveIncr()
 
 if __name__ == '__main__':
     make_dir()
