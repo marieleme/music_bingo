@@ -9,7 +9,7 @@ for i in tqdm(range(cf.AMOUNT_SHEETS)):
     pdfs.append(text)
 
 
-merger = PdfFileMerger()
+merger = PdfFileMerger(strict=False)
 
 for pdf in tqdm(pdfs):      
     merger.append(pdf)
