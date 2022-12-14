@@ -1,8 +1,12 @@
 """
 Inputs for generating the sheets.
 """
-CLIENT_ID = 'fc159782247541d5ae69990c5da06a11'
-CLIENT_SECRET = '15fe05d936394bb192b619018dac92c5'
+
+"""
+Client ID and Secret is retrived from Spotify's developer dashboard.
+"""
+CLIENT_ID = ''
+CLIENT_SECRET = ''
 
 """ 
 In a sportify "Copy link to playlist"- link, the URI is the section between {[ ]}:
@@ -28,6 +32,7 @@ LOGO_DIM_Y = LOGO_DIM
 # Choose placement of logo from the border
 LOGO_X = 0
 LOGO_Y = 0
+
 
 """
 Constants used in the code. Do not alter.
