@@ -15,6 +15,9 @@ def create_grid(n, amount_songs):
     allnum = random.sample(range(amount_songs), 25)
     return [[allnum.pop() for x in range(n)] for _ in range(n)]
 
+"""
+Creates temporary bingo sheets folder
+"""
 def make_dir():
     if path.exists(cf.BINGO_FOLDER):
         return
@@ -115,8 +118,10 @@ def draw_image_from_colour_grid(colour_grid, name):
         add_logo(bingo_sheet)
 
 
+""" 
+Adds to logos to the given PDF 
+"""
 def add_logo(pdf_name):
-    """ Adds to logos to the given PDF """
     
     pdf = fitz.open(pdf_name)
 
