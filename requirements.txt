@@ -1,0 +1,5 @@
+pillow==9.3.0
+spotipy==2.22.0
+PyPDF2==2.12.1
+tqdm==4.64.1
+PyMuPDF==1.21.1

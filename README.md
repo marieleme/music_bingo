@@ -9,6 +9,8 @@ Code for generating bingo sheets based on spotify playlist.
 * tqdm
 * PyMuPDF
 
+The installments can be installed using  ```pip3 install -r requirements.txt```
+
 ## How to generate bingo sheets
 REMEMBER: The spotify lists must have a minimum of 25 songs!
 #### Extract songs from playlist
@@ -33,5 +35,5 @@ To Merge the bingo sheets to one pdf, run `step 3`. The merged sheets is now cal
 #### Remove old sheets
 To remove all old sheets in the `BINGO/` folder, `merged_bingo_sheets.pdf` and `formatted_playlist.txt`, run `step 4`. Be aware that this action will remove the the sheets and files from the computer all together and can not be recovered later. 
 > step 4 : Run 
-    ```bash delete_sheets.sh```
+    ```python3 delete_sheets.py```
 
