@@ -9,13 +9,13 @@ CLIENT_ID = ''
 CLIENT_SECRET = ''
 
 """ 
-In a sportify "Copy link to playlist"- link, the URI is the section between {[ ]}:
+In a sportify "Copy link to playlist"- link, the PLAYLIST_URI is the section between {[ ]}:
 
 https://open.spotify.com/playlist/ {[37i9dQZEVXcIDk0U5Z8tbq]} ?si=1ec6601cfcf44e5c
 """
 
 PLAYLIST_PREFIX = 'spotify:playlist:'
-PLAYLIST_URI = '37i9dQZEVXcIDk0U5Z8tbq'
+PLAYLIST_URI = ''
 PLAYLIST_URI = PLAYLIST_PREFIX + PLAYLIST_URI
 
 AMOUNT_SHEETS = 3

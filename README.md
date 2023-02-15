@@ -1,5 +1,7 @@
 # music_bingo
 Code for generating bingo sheets based on spotify playlist.
+To use this script, you need to be registered on Spotify for Developers to recieve a Client ID and Client Secret.
+
 ## Requirements
 * python 3.x <br>
 ### pip3 install
